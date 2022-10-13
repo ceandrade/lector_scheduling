@@ -1,0 +1,250 @@
+###############################################################################
+# Executables
+###############################################################################
+brkga_pci
+brkga_pci_static
+psc_assign_5g
+psc_assign_5g_static
+psc_assign_5g_legacy
+psc_assign_5g_legacy_static
+legacy_pci_5g
+test_*
+
+###############################################################################
+# Folders
+###############################################################################
+
+att_test_cases
+documents
+papers
+production
+
+###############################################################################
+# Compiled source
+###############################################################################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.a
+*.pyc
+*.d
+
+###############################################################################
+# IDE projects
+###############################################################################
+.cproject
+.project
+.settings
+.checkstyle
+.vscode
+.sublime-workspace
+*.sublime-project
+.ropeproject
+*.ropeproject
+*.code-workspace
+.ipynb_checkpoints
+.radian_history
+
+###############################################################################
+# Packages
+###############################################################################
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.zip
+*.tar
+*.tgz
+*.tbz
+
+###############################################################################
+# OS generated files
+###############################################################################
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+###############################################################################
+# Backup Files
+###############################################################################
+*~
+*.backup
+*.swp
+
+###############################################################################
+# Dropbox files
+###############################################################################
+.dropbox
+
+###############################################################################
+# Tex/Latex files
+###############################################################################
+
+# Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.log
+
+# Intermediate documents:
+*.dvi
+*-converted-to.*
+
+# Bibliography auxiliary files (bibtex/biblatex/biber):
+
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.brf
+*.run.xml
+
+# Build tool auxiliary files:
+*.fdb_latexmk
+*.synctex
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+# Auxiliary and intermediate files from other packages:
+# algorithms
+*.alg
+*.loa
+
+# achemso
+acs-*.bib
+
+# amsthm
+*.thm
+
+# beamer
+*.nav
+*.snm
+*.vrb
+
+# cprotect
+*.cpt
+
+# fixme
+*.lox
+
+#(r)(e)ledmac/(r)(e)ledpar
+*.end
+*.?end
+*.[1-9]
+*.[1-9][0-9]
+*.[1-9][0-9][0-9]
+*.[1-9]R
+*.[1-9][0-9]R
+*.[1-9][0-9][0-9]R
+*.eledsec[1-9]
+*.eledsec[1-9]R
+*.eledsec[1-9][0-9]
+*.eledsec[1-9][0-9]R
+*.eledsec[1-9][0-9][0-9]
+*.eledsec[1-9][0-9][0-9]R
+
+# glossaries
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+*.glsdefs
+
+# gnuplottex
+*-gnuplottex-*
+
+# hyperref
+*.brf
+
+# knitr
+*-concordance.tex
+
+# listings
+*.lol
+
+# makeidx
+*.idx
+*.ilg
+*.ind
+*.ist
+
+# minitoc
+*.maf
+*.mlf
+*.mlt
+*.mtc
+*.mtc[0-9]
+*.mtc[1-9][0-9]
+
+# minted
+_minted*
+*.pyg
+
+# morewrites
+*.mw
+
+# mylatexformat
+*.fmt
+
+# nomencl
+*.nlo
+
+# sagetex
+*.sagetex.sage
+*.sagetex.py
+*.sagetex.scmd
+
+# sympy
+*.sout
+*.sympy
+sympy-plots-for-*.tex/
+
+# pdfcomment
+*.upa
+*.upb
+
+# pythontex
+*.pytxcode
+pythontex-files-*/
+
+# thmtools
+*.loe
+
+# TikZ & PGF
+*.dpth
+*.md5
+*.auxlock
+
+# todonotes
+*.tdo
+
+# xindy
+*.xdy
+
+# xypic precompiled matrices
+*.xyc
+
+# endfloat
+*.ttt
+*.fff
+
+# Latexian
+TSWLatexianTemp*
