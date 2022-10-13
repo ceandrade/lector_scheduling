@@ -322,7 +322,6 @@ def build_schedule(lectors: List[dict], dates: List[str], readings: List[str]):
                     name = lector["name"]
                     if solver.Value(slots[(name, date, reading)]) == 1:
                         counting[name] += 1
-
                         assignment.append({
                             "date": date,
                             "lector": name
@@ -454,11 +453,14 @@ def print_results(results: List[dict], dates: List[str], outputfile: Path) \
     </li>
     <li><i class="fa-li fas fa-chevron-right" style="color: steelblue;"></i>
     Essa agenda é construída usando programação matemática
-    usando este código.
+    usando
+    <a href="https://github.com/ceandrade/lector_scheduling">
+    este código.
+    </a>
     </li>
 </ul>
 </p>
-<p>Atualizado em {datetime.strftime(datetime.now(), '%Y-%m-%d')}</p>
+<p>Atualizado em {datetime.strftime(datetime.now(), '%Y-%m-%d')}.</p>
 """
 
     with open(outputfile, mode="w", encoding="utf-8") as hd:

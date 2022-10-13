@@ -1,11 +1,11 @@
-Lector scheduler
+Lector scheduler - V1.0
 ================================================================================
 
 <table>
 <tr>
   <td>License</td>
   <td>
-    <a href="https://github.com/ceandrade/lector_scheduler/blob/master/LICENSE.md">
+    <a href="https://github.com/ceandrade/lector_scheduling/blob/master/LICENSE.md">
     <img src="https://img.shields.io/badge/license-BSD--like-blue" alt="License" />
     </a>
   </td>
@@ -52,7 +52,7 @@ and use it directly. However, you need the following dependencies:
 --------------------------------------------------------------------------------
 
 See examples in this
-[:open_file_folder: folder.](https://github.com/ceandrade/lector_scheduler/blob/master/LICENSE.md)
+[:open_file_folder: folder.](https://github.com/ceandrade/lector_scheduling/tree/master/examples)
 
 :construction_worker: TODO
 --------------------------------------------------------------------------------
